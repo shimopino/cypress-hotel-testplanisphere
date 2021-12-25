@@ -4,7 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "node ./cucumber-html-reporter"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
   },
   "repository": {
     "type": "git",
@@ -18,9 +28,13 @@
   "homepage": "https://github.com/shimopino/cypress-hotel-testplanisphere#readme",
   "devDependencies": {
     "@testing-library/cypress": "^8.0.2",
+    "@types/cypress-cucumber-preprocessor": "^4.0.1",
     "@types/node": "^17.0.4",
+    "cucumber-html-reporter": "^5.5.0",
     "cypress": "^9.2.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
     "eslint-plugin-cypress": "^2.12.1",
+    "tsify": "^5.0.4",
     "typescript": "^4.5.4"
   }
 }

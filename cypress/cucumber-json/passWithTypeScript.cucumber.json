@@ -1,0 +1,32 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "TypeScriptでテストを実行できる",
+    "line": 1,
+    "id": "typescriptでテストを実行できる",
+    "tags": [],
+    "uri": "passWithTypeScript.feature",
+    "elements": [
+      {
+        "id": "typescriptでテストを実行できる;typescriptで作成した関数をテストできる",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "TypeScriptで作成した関数をテストできる",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "サンプル初期状態",
+            "result": {
+              "status": "passed",
+              "duration": 379000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

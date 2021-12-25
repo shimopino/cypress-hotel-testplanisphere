@@ -1,0 +1,119 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "認証周りの機能をテストする",
+    "line": 1,
+    "id": "認証周りの機能をテストする",
+    "tags": [],
+    "uri": "authentication.feature",
+    "elements": [
+      {
+        "id": "認証周りの機能をテストする;会員登録できる",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "会員登録できる",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "ホームページを表示する",
+            "result": {
+              "status": "passed",
+              "duration": 1624000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "「会員登録」ボタンをクリックする",
+            "result": {
+              "status": "passed",
+              "duration": 1383000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "会員情報を入力して、「登録」ボタンをクリックする",
+            "result": {
+              "status": "passed",
+              "duration": 1114000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "会員登録できる",
+            "result": {
+              "status": "failed",
+              "duration": 4245000000,
+              "error_message": "TestingLibraryElementError: Timed out retrying after 4000ms: Unable to find an element with the text: 成功. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.\n\nIgnored nodes: comments, <script />, <style />\n<html\n  lang=\"ja\"\n>\n  <head>\n     \n    \n    \n    \n    \n    <meta\n      charset=\"utf-8\"\n    />\n    \n    \n    <meta\n      content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"\n      name=\"viewport\"\n    />\n    \n    \n    <meta\n      content=\"noindex\"\n      name=\"robots\"\n    />\n    \n\n    \n    \n    \n    <link\n      href=\"../css/bootstrap.min.css\"\n      rel=\"stylesheet\"\n    />\n    \n\n    \n    <title>\n      会員登録 | HOTEL PLANISPHERE - テスト自動化練習サイト\n    </title>\n    \n  \n  </head>\n  \n  \n  <body\n    class=\"bg-light\"\n  >\n    \n    \n    <h1\n      class=\"text-center text-uppercase d-none d-lg-block display-3 my-5\"\n    >\n      Hotel Planisphere\n    </h1>\n    \n    \n    <nav\n      class=\"navbar navbar-expand-lg navbar-dark bg-dark py-lg-4\"\n    >\n      \n      \n      <a\n        class=\"navbar-brand text-uppercase font-weight-bold d-lg-none\"\n        href=\"#\"\n      >\n        Hotel Planisphere\n      </a>\n      \n      \n      <button\n        aria-controls=\"navbarNav\"\n        aria-expanded=\"false\"\n        aria-label=\"Toggle navigation\"\n        class=\"navbar-toggler\"\n        data-target=\"#navbarNav\"\n        data-toggle=\"collapse\"\n        type=\"button\"\n      >\n        \n        \n        <span\n          class=\"navbar-toggler-icon\"\n        />\n        \n      \n      </button>\n      \n      \n      <div\n        class=\"collapse navbar-collapse\"\n        id=\"navbarNav\"\n      >\n        \n        \n        <ul\n          class=\"navbar-nav mx-auto\"\n        >\n          \n          \n          <li\n            class=\"nav-item px-lg-4\"\n          >\n            \n            \n            <a\n              class=\"nav-link\"\n              href=\"./index.html\"\n            >\n              ホーム\n            </a>\n            \n          \n          </li>\n          \n          \n          <li\n            class=\"nav-item px-lg-4\"\n          >\n            \n            \n            <a\n              class=\"nav-link\"\n              href=\"./plans.html\"\n            >\n              宿泊予約\n            </a>\n            \n          \n          </li>\n          \n          \n          <li\n            class=\"nav-item px-lg-4 active\"\n          >\n            \n            \n            <a\n              class=\"nav-link\"\n              href=\"./signup.html\"\n            >\n              会員登録\n            </a>\n            \n          \n          </li>\n          \n          \n          <li\n            class=\"nav-item px-lg-4\"\n          >\n            \n            \n            <a\n              class=\"btn btn-outline-secondary\"\n              href=\"./login.html\"\n              role=\"button\"\n            >\n              ログイン\n            </a>\n            \n          \n          </li>\n          \n        \n        </ul>\n        \n      \n      </div>\n      \n    \n    </nav>\n    \n    \n    <div\n      class=\"container bg-white py-5\"\n    >\n      \n      \n      <div\n        class=\"row\"\n      >\n        \n        \n        <div\n          class=\"col-lg-9 mx-auto\"\n        >\n          \n          \n          <h2\n            class=\"my-3\"\n          >\n            会員登録\n          </h2>\n          \n        \n        </div>\n        \n      \n      </div>\n      \n      \n      <div\n        class=\"row\"\n      >\n        \n        \n        <div\n          class=\"col-lg-9 mx-auto\"\n        >\n          \n          \n          <form\n            action=\"./mypage.html\"\n            class=\"was-validated\"\n            id=\"signup-form\"\n            novalidate=\"\"\n          >\n            \n            \n            <div\n              class=\"form-group\"\n            >\n              \n              \n              <label\n                for=\"email\"\n              >\n                メールアドレス \n                <span\n                  class=\"badge badge-primary\"\n                >\n                  必須\n                </span>\n              </label>\n              \n              \n              <input\n                class=\"form-control\"\n                id=\"email\"\n                name=\"email\"\n                required=\"\"\n                type=\"email\"\n              />\n              \n              \n              <div\n                class=\"invalid-feedback\"\n              />\n              \n            \n            </div>\n            \n            \n            <div\n              class=\"form-group\"\n            >\n              \n              \n              <label\n                for=\"password\"\n              >\n                パスワード \n                <span\n                  class=\"badge badge-primary\"\n                >\n                  必須\n                </span>\n              </label>\n              \n              \n              <input\n                autocomplete=\"new-password\"\n                class=\"form-control\"\n                id=\"password\"\n                minlength=\"8\"\n                name=\"password\"\n                pattern=\".{8,}\"\n                required=\"\"\n                type=\"password\"\n              />\n              \n              \n              <small\n                class=\"form-text text-muted\"\n              >\n                8文字以上で入力してください。\n              </small>\n              \n              \n              <div\n                class=\"invalid-feedback\"\n              >\n                このフィールドを入力してください。\n              </div>\n              \n            \n            </div>\n            \n            \n            <div\n              class=\"form-group\"\n            >\n              \n              \n              <label\n                for=\"password-confirmation\"\n              >\n                パスワード（確認） \n                <span\n                  class=\"badge badge-primary\"\n                >\n                  必須\n                </span>\n              </label>\n              \n              \n              <input\n                autocomplete=\"new-password\"\n                class=\"form-control\"\n                id=\"password-confirmation\"\n                minlength=\"8\"\n                name=\"password-confirmation\"\n                pattern=\".{8,}\"\n                required=\"\"\n                type=\"password\"\n              />\n              \n              \n              <small\n                class=\"form-text text-muted\"\n              >\n                確認のため再度パスワードを入力してください。\n              </small>\n              \n              \n              <div\n                class=\"invalid-feedback\"\n              >\n                このフィールドを入力してください。\n              </div>\n              \n            \n            </div>\n            \n            \n            <div\n              class=\"form-group\"\n            >\n              \n              \n              <label\n                for=\"username\"\n              >\n                氏名 \n                <span\n                  class=\"badge badge-primary\"\n                >\n                  必須\n                </span>\n              </label>\n              \n              \n              <input\n                class=\"form-control\"\n                id=\"username\"\n                name=\"username\"\n                required=\"\"\n                type=\"text\"\n              />\n              \n              \n              <div\n                class=\"invalid-feedback\"\n              >\n       ...\n    at Object.getElementError (https://hotel.testplanisphere.dev/__cypress/tests?p=cypress/support/index.js:426:19)\n    at eval (https://hotel.testplanisphere.dev/__cypress/tests?p=cypress/support/index.js:2883:38)\n    at eval (https://hotel.testplanisphere.dev/__cypress/tests?p=cypress/support/index.js:2855:17)\n    at eval (https://hotel.testplanisphere.dev/__cypress/tests?p=cypress/support/index.js:2904:19)\n    at baseCommandImpl (https://hotel.testplanisphere.dev/__cypress/tests?p=cypress/support/index.js:87:16)\n    at commandImpl (https://hotel.testplanisphere.dev/__cypress/tests?p=cypress/support/index.js:90:40)\n    at getValue (https://hotel.testplanisphere.dev/__cypress/tests?p=cypress/support/index.js:114:23)\n    at resolveValue (https://hotel.testplanisphere.dev/__cypress/tests?p=cypress/support/index.js:154:35)\nFrom previous event:\n    at whenStable (https://hotel.testplanisphere.dev/__cypress/runner/cypress_runner.js:167668:63)\n    at https://hotel.testplanisphere.dev/__cypress/runner/cypress_runner.js:167165:14"
+            }
+          }
+        ]
+      },
+      {
+        "id": "認証周りの機能をテストする;ログインできる",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "ログインできる",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "ホームページを表示する",
+            "result": {
+              "status": "passed",
+              "duration": 384000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "ハンバーガーメニューをクリックする",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "ログインボタンをクリックする",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "ログインに必要な情報を入力してログインボタンをクリックする",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "ログインできる",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
