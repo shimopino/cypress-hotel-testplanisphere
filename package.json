@@ -1,0 +1,26 @@
+{
+  "name": "cypress-hotel-testplanisphere",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shimopino/cypress-hotel-testplanisphere.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shimopino/cypress-hotel-testplanisphere/issues"
+  },
+  "homepage": "https://github.com/shimopino/cypress-hotel-testplanisphere#readme",
+  "devDependencies": {
+    "@testing-library/cypress": "^8.0.2",
+    "@types/node": "^17.0.4",
+    "cypress": "^9.2.0",
+    "eslint-plugin-cypress": "^2.12.1",
+    "typescript": "^4.5.4"
+  }
+}
